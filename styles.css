@@ -1,160 +1,200 @@
 * {
   margin: 0rem;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {   
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    background-color:#90B494;
-    color: #545775;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #90B494;
+  color: #545775;
 }
- header{
-    background-color:#718F94;
-    border: 2px solid #457B9D;
 
-    height:120px;
-    width:1263px;
- 
-    margin-top:-10px;
-    
+header {
+  background-color: #718F94;
+  border: 2px solid #457B9D;
+  height: 120px;
+  width: 100%;
+  margin-top: -10px;
 }
 
 .product {
-    border: 2px solid #457B9D;
-    background-color:#BFC8AD;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size:1rem;
-    margin-left:10px;
-    margin-top:10px;
-    border-radius:3px 3px 3px 3px;
+  border: 2px solid #457B9D;
+  background-color: #BFC8AD;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
 }
 
-
-.f{
-    text-align: center;
-    font-size:2rem;
+.f {
+  text-align: center;
+  font-size: 2rem;
 }
-
-
 
 .order-button {
-  background-color: #90B494; /* Задний фон */
-  color: #545775; /* Цвет текста */
+  background-color: #90B494;
+  color: #545775;
   border: none;
-  border-radius: 10px; /* Скругленные углы */
-  padding: 15px 30px; /* Отступы внутри кнопки */
-  font-size: 16px; /* Размер текста */
-  font-weight: bold; /* Жирный текст */
-  cursor: pointer; /* Указатель при наведении */
-  transition: background-color 0.3s, color 0.3s; /* Плавный переход */
-
-  margin-top:10px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
 }
 
 .order-button:hover {
-  background-color: #77B191; /* Цвет фона при наведении */
-  color: #ffffff; /* Цвет текста при наведении */
+  background-color: #77B191;
+  color: #ffffff;
 }
 
-
-.imgnout{
-width:500px;
+.imgnout {
+  width: 500px;
 }
 
-.block{
-  background-color:#718F94;
-  width:130px;
-  height:45px;
-  margin-top:10px;
-  margin-left:10px;
-  cursor: pointer; 
+.block {
+  background-color: #718F94;
+  width: 130px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
   border: 2px solid #457B9D;
 }
 
-.block:hover{
-  color:#000;
-  background-color:#92b7bd;
+.block:hover {
+  color: #000;
+  background-color: #92b7bd;
   border: 2px solid #789599;
   transition: 900ms;
 }
 
-.imgkoc{
-  width:30px;
-  margin-left:10px;
-  margin-top:5px;
+.imgkoc {
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
   text-align: center;
 }
 
-.pKoc{
-  margin-left:50px;
-  margin-top:-25px;
-  color:#000
+.pKoc {
+  margin-left: 50px;
+  margin-top: -25px;
+  color: #000;
 }
 
-.p{
-  margin-left:530px;
-  margin-top:-290px;
-  font-size:1.4rem;
+.p {
+  margin-left: 530px;
+  margin-top: -290px;
+  font-size: 1.4rem;
 }
 
-.ppp{
+.ppp {
   background-color: #5f659e;
 }
 
-
-.btn2{
-  background-color: #90B494; /* Задний фон */
-  color: #545775; /* Цвет текста */
+.btn2 {
+  background-color: #90B494;
+  color: #545775;
   border: none;
-  border-radius: 10px; /* Скругленные углы */
-  padding: 15px 30px; /* Отступы внутри кнопки */
-  font-size: 16px; /* Размер текста */
-  font-weight: bold; /* Жирный текст */
-  cursor: pointer; /* Указатель при наведении */
-  transition: background-color 0.3s, color 0.3s; /* Плавный переход */
-
-  margin-top:10px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 10px;
 }
 
-.btn2:hover{
-  background-color: #77B191; /* Цвет фона при наведении */
-  color: #ffffff; 
+.btn2:hover {
+  background-color: #77B191;
+  color: #ffffff;
 }
 
 .productCart {
-  border: 2px solid ;
-  background-color:#BFC8AD;
+  border: 2px solid;
+  background-color: #BFC8AD;
   padding: 10px;
   margin-bottom: 10px;
-  font-size:1rem;
-  margin-left:10px;
-  margin-top:10px;
-  border-radius:3px 3px 3px 3px;
-  
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
 }
 
-.h2{
-  margin-left:425px;
-  margin-top:15px;
+.h2 {
+  margin-left: 425px;
+  margin-top: 15px;
   font-size: medium;
   font-size: 1.1rem;
   color: #3f3f3f00;
-  text-indent:100px;
-  word-spacing: 22px; 
+  text-indent: 100px;
+  word-spacing: 22px;
 }
 
-a{
-  color:#545775;
+a {
+  color: #545775;
 }
 
-a:hover{
-  color:#696c90;
+a:hover {
+  color: #696c90;
   transition: all 0.30s ease-in;
 }
 
+@media screen and (max-width: 768px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .block {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .block2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .block3 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .block4 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .imgnout {
+    width: 100%;
+  }
+
+  .p {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .h2 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
 
 .block2{
   background-color:#718F94;
